@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.gifer.com/68g.gif);
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .sistema-solar {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .sol {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    background-image: url(https://usagif.com/wp-content/uploads/gifs/sun-40.gif);
+    background-size: cover;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: reverse 60s linear infinite;
+  }
+  
+  .planeta {
+    position: absolute;
+    border-radius: 50%;
+    animation: orbitar 10s linear infinite;
+  }
+  
+  .mercurio {
+    width: 20px;
+    height: 20px;
+    background-image: url(https://i.gifer.com/origin/62/623d9fc17bcfcaf5136dc9e8cd0dd81e_w200.gif);
+    background-size: cover;
+    top: calc(50% - 20px);
+    left: calc(50% + 50px);
+    animation-duration: 5s;
+  }
+  
+  .venus {
+    width: 30px;
+    height: 30px;
+    background-image: url(https://i.pinimg.com/originals/d3/aa/38/d3aa38b40948b7ca8c7ce2873e85fe01.gif);
+    background-size: cover;
+    top: calc(50% - 30px);
+    left: calc(50% + 100px);
+    animation-duration: 7s;
+  }
+  
+  .terra {
+    width: 40px;
+    height: 40px;
+    background-image: url(https://phoneky.co.uk/thumbs/screensavers/down/nature/earth_i3jiri8r.gif);
+    background-size: cover;
+    top: calc(50% - 40px);
+    left: calc(50% + 150px);
+    animation-duration: 10s;
+  }
+  
+  .marte {
+    width: 25px;
+    height: 25px;
+    background-image: url(https://pa1.aminoapps.com/7197/92da91a399fe02a09b83ec7ef6bca527ee651464r1-203-200_00.gif);
+    background-size: cover;
+    top: calc(50% - 25px);
+    left: calc(50% + 200px);
+    animation-duration: 12s;
+  }
+  
+  .jupiter {
+    width: 70px;
+    height: 70px;
+    background-image: url(https://i.pinimg.com/originals/4e/8f/dc/4e8fdc7d0f2c1f644cf1849604adde23.gif);
+    background-size: cover;
+    top: calc(50% - 70px);
+    left: calc(50% + 250px);
+    animation-duration: 15s;
+  }
+  
+  .saturno {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://i.gifer.com/7YUC.gif);
+    background-size: cover;
+    top: calc(50% - 60px);
+    left: calc(50% + 300px);
+    animation-duration: 20s;
+  }
+  
+  .netuno {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://pa1.aminoapps.com/6780/ec78d99732490d473e96da3a183bdb5ff03de828_00.gif);
+    background-size: cover;
+    top: calc(50% - 50px);
+    left: calc(50% + 350px);
+    animation-duration: 25s;
+  }
+  
+  @keyframes orbitar {
+    0% {
+      transform: rotate(0deg) translateX(100px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    }
+  }
+  
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
